@@ -1,0 +1,93 @@
+.margin{
+    margin-left: 05vh;
+    margin-right: 05vh;
+}
+header{
+    max-width: 1920px;
+    
+}
+
+.gradient{
+    background-image: linear-gradient(to right,#610101,#c70202);
+
+    /* for applying the grad */
+}
+.reverse_grad{
+    background-image: linear-gradient(to right,#c70202,#a60202);
+    /* apply rev grad */
+}
+
+.anchor_banner:hover{
+    color:lime;
+}
+a.anchor_banner{
+    text-decoration: none;
+    color: white;
+    
+}
+.top_padding{
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.font_change{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cursive_font{
+    font-family:"Monotype Corsiva" ;
+    font-style: italic;
+    
+}
+.font_red{
+    color: #660403;
+}
+
+.img_properties{
+    width: 275px;
+    height: 205px;
+    border: white 02px solid ;
+    
+}
+.grey_border{
+    border: rgb(224, 224, 224) 07px solid;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0px 5px 5px 5px;
+}
+
+.red-box{
+    background-color: #610101;
+    color: white;
+    margin-bottom: 5px;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items:center ;
+    justify-content: left;
+    
+}
+.anchor_banner_quickmenu:hover{
+    color:lime;
+    background-color: darkgrey;
+}
+.headings{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.center_text{
+    display: flex;
+    align-items:center ;
+    justify-content: left;
+}
+.left_margin{
+    margin-left: 3%;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 5vh; */
+}
